@@ -1429,7 +1429,7 @@ li{
     z-index:-2;
     width:100%;
     height:100%;
-    background: url(./images/svg/khadamat/bg.svg) no-repeat;
+    background: url(../images/svg/khadamat/bg.svg) no-repeat;
 }
 .khadamat_header{
     margin: 19px 21px 16px 0px;
@@ -1440,7 +1440,7 @@ li{
     width:29px;
     height:29px;
     margin-left:10px;
-    background: url(./images/svg/khadamat/sar.svg) no-repeat;
+    background: url(../images/svg/khadamat/sar.svg) no-repeat;
 
 }
 .header_name_khadamat{
@@ -1640,7 +1640,7 @@ li{
     margin-bottom: 26px;
 }
 .header_icon_video{
-    background: url(./images/svg/film.svg) no-repeat;
+    background: url(../images/svg/film.svg) no-repeat;
     display:block;
     float:right;
     width:29px;
@@ -1704,7 +1704,7 @@ li{
 
 /*====== ayeha ====== */
 .wrapper_ayeha{
-    background: url(./images/home/bg_note.png);
+    background: url(../images/home/bg_note.png);
     top: 0px;
     bottom: 0;
     left: -20px;
@@ -1720,7 +1720,7 @@ li{
 }
 .ayeha_logo{
     background-color: blue;
-    background: url(./images/svg/aye.svg) no-repeat;
+    background: url(../images/svg/aye.svg) no-repeat;
     background-size: cover;
     float:right;
     width:161px;
@@ -1979,14 +1979,14 @@ li{
     float: right;
     width: 18px;
     height: 32px;
-    background: url(./images/svg/r_sar.svg) no-repeat;
+    background: url(../images/svg/r_sar.svg) no-repeat;
 }
 .bg_ls_sec{
     display: block;
     float: right;
     width: 45px;
     height: 32px;
-    background: url(./images/svg/l_sar.svg) no-repeat;
+    background: url(../images/svg/l_sar.svg) no-repeat;
     margin-right: -1px;
 } */
 .map-sec{
@@ -2227,7 +2227,7 @@ li{
     margin: 0;
 }
 .logo_footer1{
-    background: url(./images/home/logo_ft.png) no-repeat;
+    background: url(../images/home/logo_ft.png) no-repeat;
     background-size: cover;
     width: 194px;
     height: 56px;
