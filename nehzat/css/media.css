@@ -615,7 +615,7 @@
         left: -10px !important;
     }
     .header_logo img{
-        background:url('/client/themes/fa/main/img/logo_hd_fix.svg') no-repeat center 22px !important;
+        background:url('../images/logo_hd_fix.svg') no-repeat center 22px !important;
         width: 175px;
         padding-top: 6px;
     }
