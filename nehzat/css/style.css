@@ -1,4 +1,4 @@
-@import url("./font/IRANSansWeb\(FaNum\)_Medium.woff2");
+@import url("../font/IRANSansWeb\(FaNum\)_Medium.woff2");
 
 /*====== customize ====== */
 :root {
@@ -9,10 +9,9 @@
    }
 /*====== font ====== */
 @font-face { font-family: "iranSansMediumNumber"; 
-    src: url("/client/themes/fa/main/fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix") format("embedded-opentype"),
-     url("./font/IRANSansWeb_Medium.woff2") format("woff2"), 
-     url("/client/themes/fa/main/fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"), 
-     url("/client/themes/fa/main/fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype"); 
+    src:url("../font/IRANSansWeb_Medium.woff2") format("woff"), 
+     url("/client/themes/fa/main/fonts/IRANSansWeb_Medium.woff") format("woff"), 
+     url("/client/themes/fa/main/fonts/IRANSansWeb_Medium.ttf") format("truetype"); 
      font-style: normal; 
      font-weight: 500;
       font-display: swap;
@@ -41,7 +40,7 @@
 @font-face { 
     font-family: "iranSansBold"; 
     src: url("/client/themes/fa/main/fonts/IRANSansWeb_Bold.eot?#iefix") format("eot"), 
-    url("./font/IRANSansWeb_Bold.woff2") format("woff2"), 
+    url("../font/IRANSansWeb_Bold.woff2") format("woff2"), 
     url("/client/themes/fa/main/fonts/IRANSansWeb_Bold.woff") format("woff"), 
     url("/client/themes/fa/main/fonts/IRANSansWeb_Bold.ttf") format("ttf"); 
     font-weight: 400; 
@@ -66,19 +65,19 @@
 }
 @font-face {
     font-family:iranSansMedium ;
-    src: url(/font/IRANSansWeb_Medium.woff);
+    src: url(../font/IRANSansWeb_Medium.woff);
 }
 @font-face { 
     font-family: "iranSansMedium"; 
-    src: url("./font/IRANSansWeb_Medium.woff") format("woff"), 
-    url("./font/IRANSansWeb_Medium.woff") format("truetype"); 
+    src: url("../font/IRANSansWeb_Medium.woff") format("woff"), 
+    url("../font/IRANSansWeb_Medium.woff") format("truetype"); 
     font-style: normal; 
     font-weight: 400; 
     font-display: swap;
  }
  @font-face {
     font-family: IRANSans;
-    src: url(/font/FontsFree-Net-ir_sans.ttf);
+    src: url(../font/FontsFree-Net-ir_sans.ttf);
 }
 /* End of the font */
 body{
@@ -397,7 +396,7 @@ li{
     left: 109px;
 }
 .header_fix .header-sec-end .header-sec-end-img{
-    background: url(./images/svg/l_hd_fix.svg)no-repeat;
+    background: url(../images/svg/l_hd_fix.svg)no-repeat;
     width: 131px;
     height: 102px;
 }
@@ -2318,7 +2317,7 @@ li{
     border-top: 5px solid #b77518;
 }
 .bg_footer{
-    background: url(./images/bg/l_ft.png) no-repeat;
+    background: url(../images/bg/l_ft.png) no-repeat;
     background-color: #004249;
 
 }

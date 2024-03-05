@@ -219,7 +219,7 @@ $( document).ready(function(){{
     
     // ajax and fetch the data
     $.ajax({
-      url : "/js/data.json",
+      url : "./js/data.json",
       dataType : "json",
       method : "GET",
       success : function(response){
