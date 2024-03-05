@@ -1,4 +1,4 @@
-/* @import url("/font/IRANSansWeb\(FaNum\)_Medium.woff2"); */
+@import url("./font/IRANSansWeb\(FaNum\)_Medium.woff2");
 
 /*====== customize ====== */
 :root {
@@ -10,38 +10,38 @@
 /*====== font ====== */
 @font-face { font-family: "iranSansMediumNumber"; 
     src: url("/client/themes/fa/main/fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix") format("embedded-opentype"),
-     url("/font/IRANSansWeb_Medium.woff2") format("woff2"), 
+     url("./font/IRANSansWeb_Medium.woff2") format("woff2"), 
      url("/client/themes/fa/main/fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"), 
      url("/client/themes/fa/main/fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype"); 
      font-style: normal; 
      font-weight: 500;
       font-display: swap;
      }
-/* @font-face { 
+@font-face { 
     font-family: "iranSansMediumNumber"; 
-    src: url("/font/IRANSansWeb\(FaNum\)_Medium.woff2") 
-    format("embedded-opentype"), url("/font/IRANSansWeb\(FaNum\)_Medium.woff2")
-    format("woff2"), url("/font/IRANSansWeb\(FaNum\)_Medium.woff2") 
-    format("woff"), url("/font/IRANSansWeb\(FaNum\)_Medium.woff2") 
+    src: url("./font/IRANSansWeb\(FaNum\)_Medium.woff2") 
+    format("embedded-opentype"), url("./font/IRANSansWeb\(FaNum\)_Medium.woff2")
+    format("woff2"), url("./font/IRANSansWeb\(FaNum\)_Medium.woff2") 
+    format("woff"), url("./font/IRANSansWeb\(FaNum\)_Medium.woff2") 
     format("truetype"); 
     font-style: normal; 
     font-weight: 500;
     font-display: swap; 
-} */
+}
 
 @font-face { 
     font-family: "iranSansLight"; 
-    src: url("/font/IRANSansWeb_Light.woff2") 
-    format("eot"), url("/font/IRANSansWeb_Light.woff2") 
-    format("woff2"), url("/font/IRANSansWeb_Light.woff2")
-    format("woff"), url("/font/IRANSansWeb_Light.woff2") 
+    src: url("./font/IRANSansWeb_Light.woff2") 
+    format("eot"), url("./font/IRANSansWeb_Light.woff2") 
+    format("woff2"), url("./font/IRANSansWeb_Light.woff2")
+    format("woff"), url("./font/IRANSansWeb_Light.woff2") 
     format("ttf"); 
     font-weight: 400; 
 }
 @font-face { 
     font-family: "iranSansBold"; 
     src: url("/client/themes/fa/main/fonts/IRANSansWeb_Bold.eot?#iefix") format("eot"), 
-    url("/font/IRANSansWeb_Bold.woff2") format("woff2"), 
+    url("./font/IRANSansWeb_Bold.woff2") format("woff2"), 
     url("/client/themes/fa/main/fonts/IRANSansWeb_Bold.woff") format("woff"), 
     url("/client/themes/fa/main/fonts/IRANSansWeb_Bold.ttf") format("ttf"); 
     font-weight: 400; 
@@ -50,7 +50,7 @@
 @font-face { 
     font-family: "iranSans"; 
     src: url("/client/themes/fa/main/fonts/IRANSansWeb.eot?#iefix") format("eot"), 
-    url("/font/IRANSansWeb.woff2") format("woff2"), 
+    url("./font/IRANSansWeb.woff2") format("woff2"), 
     url("/client/themes/fa/main/fonts/IRANSansWeb.woff") format("woff"), 
     url("/client/themes/fa/main/fonts/IRANSansWeb.ttf") format("ttf"); 
     font-weight: 400; 
@@ -59,19 +59,19 @@
 @font-face { 
     font-family: Sahel-black; 
     src: url("/client/themes/fa/main/fonts/Sahel-Black.eot?#iefix") format("embedded-opentype"),
-     url("/font/Sahel-Black.woff") format("woff"), 
+     url("./font/Sahel-Black.woff") format("woff"), 
      url("/client/themes/fa/main/fonts/Sahel-Black.ttf") format("truetype"); 
      font-weight: 900; 
      font-display: swap; 
 }
-/* @font-face {
+@font-face {
     font-family:iranSansMedium ;
     src: url(/font/IRANSansWeb_Medium.woff);
-} */
+}
 @font-face { 
     font-family: "iranSansMedium"; 
-    src: url("/font/IRANSansWeb_Medium.woff") format("woff"), 
-    url("/font/IRANSansWeb_Medium.woff") format("truetype"); 
+    src: url("./font/IRANSansWeb_Medium.woff") format("woff"), 
+    url("./font/IRANSansWeb_Medium.woff") format("truetype"); 
     font-style: normal; 
     font-weight: 400; 
     font-display: swap;
@@ -155,7 +155,7 @@ li{
     float:right;
     width:38px;
     height:32px;
-    background:url('/images/svg/l_sar.svg') no-repeat;
+    background:url('./images/svg/l_sar.svg') no-repeat;
     margin-right:-1px
    }
    .section-header-general span.bg_fr_sec {
@@ -163,7 +163,7 @@ li{
     float:right;
     width:20px;
     height:32px;
-    background:url('/images/svg/r_sar.svg') no-repeat
+    background:url('./images/svg/r_sar.svg') no-repeat
    }
    .section-name-header {
     width:auto;
@@ -397,7 +397,7 @@ li{
     left: 109px;
 }
 .header_fix .header-sec-end .header-sec-end-img{
-    background: url(/images/svg/l_hd_fix.svg)no-repeat;
+    background: url(./images/svg/l_hd_fix.svg)no-repeat;
     width: 131px;
     height: 102px;
 }
@@ -497,7 +497,7 @@ li{
     cursor: pointer;
 }
 .header-sec-end-img{
-    background: url(/images/svg/l_hd.svg) no-repeat;
+    background: url("../images/svg/l_hd.svg") no-repeat;
     width: 131px;
     height: 102px;
 }
@@ -1430,7 +1430,7 @@ li{
     z-index:-2;
     width:100%;
     height:100%;
-    background: url(/images/svg/khadamat/bg.svg) no-repeat;
+    background: url(./images/svg/khadamat/bg.svg) no-repeat;
 }
 .khadamat_header{
     margin: 19px 21px 16px 0px;
@@ -1441,7 +1441,7 @@ li{
     width:29px;
     height:29px;
     margin-left:10px;
-    background: url(/images/svg/khadamat/sar.svg) no-repeat;
+    background: url(./images/svg/khadamat/sar.svg) no-repeat;
 
 }
 .header_name_khadamat{
@@ -1641,7 +1641,7 @@ li{
     margin-bottom: 26px;
 }
 .header_icon_video{
-    background: url(/images/svg/film.svg) no-repeat;
+    background: url(./images/svg/film.svg) no-repeat;
     display:block;
     float:right;
     width:29px;
@@ -1705,7 +1705,7 @@ li{
 
 /*====== ayeha ====== */
 .wrapper_ayeha{
-    background: url(/images/home/bg_note.png);
+    background: url(./images/home/bg_note.png);
     top: 0px;
     bottom: 0;
     left: -20px;
@@ -1721,7 +1721,7 @@ li{
 }
 .ayeha_logo{
     background-color: blue;
-    background: url(/images/svg/aye.svg) no-repeat;
+    background: url(./images/svg/aye.svg) no-repeat;
     background-size: cover;
     float:right;
     width:161px;
@@ -2228,7 +2228,7 @@ li{
     margin: 0;
 }
 .logo_footer1{
-    background: url(/images/home/logo_ft.png) no-repeat;
+    background: url(./images/home/logo_ft.png) no-repeat;
     background-size: cover;
     width: 194px;
     height: 56px;
